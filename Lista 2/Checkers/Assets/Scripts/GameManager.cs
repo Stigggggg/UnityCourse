@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Collections;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -282,7 +283,7 @@ public class GameManager : MonoBehaviour
 
     void EndGame(string message) {
         ended = true;
-        DisplayMessage(message);
+        StartCoroutine(EndGameCoroutine(message));
     }
 
     private void DisplayMessage(string message) {
@@ -295,6 +296,12 @@ public class GameManager : MonoBehaviour
         if (!ended) {
             messageText.text = "";
         }
+    }
+
+    private IEnumerator EndGameCoroutine(string message) {
+        DisplayMessage(message);
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     void ClearHighlights() {

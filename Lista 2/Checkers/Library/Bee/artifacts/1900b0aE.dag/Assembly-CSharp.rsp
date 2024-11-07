@@ -355,9 +355,12 @@
 "Assets/Scripts/BoardGenerator.cs"
 "Assets/Scripts/BoardSquare.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/Menu.cs"
 "Assets/Scripts/Piece.cs"
 "Assets/Scripts/PieceController.cs"
 "Assets/Scripts/PieceGenerator.cs"
+"Assets/Scripts/Restart.cs"
+"Assets/Scripts/Start.cs"
 -langversion:9.0
 /deterministic
 /optimize+
