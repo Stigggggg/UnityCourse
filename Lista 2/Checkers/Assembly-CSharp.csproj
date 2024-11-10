@@ -67,8 +67,8 @@
     <Compile Include="Assets\Scripts\Start.cs" />
     <Compile Include="Assets\Scripts\PieceController.cs" />
     <Compile Include="Assets\Scripts\PieceGenerator.cs" />
+    <Compile Include="Assets\Scripts\End.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\BoardSquare.cs" />
     <Compile Include="Assets\Scripts\Restart.cs" />
     <Compile Include="Assets\Scripts\BoardGenerator.cs" />

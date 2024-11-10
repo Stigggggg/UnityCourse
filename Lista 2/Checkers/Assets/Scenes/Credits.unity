@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 471007161}
   - component: {fileID: 471007165}
   m_Layer: 5
-  m_Name: Menu
+  m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -485,8 +485,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 471007165}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: GoToMenu
+        m_TargetAssemblyTypeName: End, Assembly-CSharp
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -543,7 +543,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 471007159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a0e61fd20b3555418576bfb1f9a9db4, type: 3}
+  m_Script: {fileID: 11500000, guid: 08233d766d412ad48831dfb943784d55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &580064165
@@ -1218,7 +1218,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MENU
+  m_text: "WYJD\u0179"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b4e95e7bc74651f45857fb6bd7648995, type: 2}
   m_sharedMaterial: {fileID: -6617381333218675325, guid: b4e95e7bc74651f45857fb6bd7648995, type: 2}
